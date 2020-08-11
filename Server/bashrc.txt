@@ -1,0 +1,12 @@
+######################### ALIAS #########################
+alias iotop='sudo iotop'
+alias iftop='sudo iftop'
+alias timeshift='sudo timeshift'
+
+alias VPN_UP='sudo systemctl start openvpn@'
+alias VPN_DOWN='sudo systemctl stop openvpn@'
+alias VPN_STATUS='sudo systemctl status openvpn@'
+alias VPN_RECONNECT='sudo systemctl restart openvpn@'
+
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
