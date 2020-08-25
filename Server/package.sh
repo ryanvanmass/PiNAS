@@ -1,15 +1,15 @@
 #!/bin/bash
-##Installs Syncthing
+############### Installs Syncthing ###############
 sudo apt install -y syncthing
 
-#Installs Samba (SMB)
+############### Installs Samba (SMB) ###############
 sudo apt install -y samba
 
-#Installs OpenVPN
+############### Installs OpenVPN ###############
 sudo apt install -y openvpn
 
-#Installs Timeshift
+############### Installs Timeshift ###############
 sudo apt install -y timeshift
 
-#Installs Misc Troubleshooting tools
+############### Installs Misc Troubleshooting tools ###############
 sudo apt install -u htop iotop iftop net-tools
