@@ -38,8 +38,15 @@ Step 3: It will walk you through mounting the drive that the network shares are 
 
 step 4: It will configure timeshift to run daily and weekly backups of the server configuration
 
-step 5: It will walk you through creating your SMB Credentials
+Step 5: I will walk you through creating the SMB Shares
 
-Step 6: it will append some useful alias's to your .bashrc file
+Step 6: It will walk you through creating your SMB Credentials
+
+Step 7: it will append some useful alias's to your .bashrc file
 
 ## Client
+Step 1: It will collect the Server Information and Login Credentials from you
+
+Step 2: I will walk you through creating the file system mounts and mounting the SMB Shares in the file system (through Fstab)
+
+Step 3: It will mount all shares
