@@ -1,7 +1,4 @@
 #!/bin/bash
-############### Installs Syncthing ###############
-sudo apt install -y syncthing
-
 ############### Installs Samba (SMB) ###############
 sudo apt install -y samba
 
