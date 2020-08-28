@@ -14,7 +14,7 @@ __Note:__ Will be installed as part of the set up
 
 # Installation
 ## Server
-__Note:__ You will need to know the static IP address for the sever to complete setup (run `ip address`)
+__Note:__ You will need to know the static IP address for the sever to complete setup (run `ip address`). Your drive also has to be partitioned as NTFS
 1. `git clone https://www.github.com/ryanvanmass/pinas`
 2. `cd pinas/Server`
 3. `sudo sh ./setup.sh`

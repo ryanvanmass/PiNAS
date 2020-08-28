@@ -23,7 +23,7 @@ do
 
     mkdir -p /media/$USER/$ShareName
 
-    sudo su -c "echo "//$IP/$ShareName  /media/$USER/$ShareName cifs    username=$Username,password=$Password,noperm    0   0" >> /etc/fstab"
+    sudo su -c "echo \"//$IP/$ShareName  /media/$USER/$ShareName cifs    username=$Username,password=$Password,noperm    0   0\" >> /etc/fstab"
 done
 
 sudo mount -a
