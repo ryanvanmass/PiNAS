@@ -21,9 +21,10 @@ do
     echo "What is the Share Name?"
     read ShareName
 
-    mkdir -p /media/$USER/$ShareName
+    sudo mkdir -p /media/$USER/$ShareName
 
     sudo su -c "echo \"//$IP/$ShareName  /media/$USER/$ShareName cifs    username=$Username,password=$Password,noperm    0   0\" >> /etc/fstab"
+    i=$(( $i + 1 ))
 done
 
 sudo mount -a
