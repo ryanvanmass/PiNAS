@@ -15,7 +15,7 @@ read Password
 
 
 ######################### Creates Shares #########################
-i=0
+i=1
 while [ $i -le $ShareNumber ]
 do
     echo "What is the Share Name?"
